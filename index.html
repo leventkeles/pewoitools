@@ -1,0 +1,890 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PewoiTools</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+</head>
+<body>
+
+    <header>
+        <div class="header-text">
+            <p>pewoi<p class="tools-text">tools</p></p>
+            <p><i class="material-icons header-button">favorite</i></p>
+        </div>
+    </header>
+
+    <main class="main">
+        <section class="filters container">
+            <!--=============== FILTERS TABS ===============-->
+            <ul class="filter-content">
+                <button class="filter-button filter-tab-active" data-target="#icon">
+                    Icons
+                </button>
+                <button class="filter-button" data-target="#backgrounds">
+                    Backgrounds
+                </button>
+
+                <button class="filter-button" data-target="#objects">
+                    Objects
+                </button>
+
+                <button class="filter-button" data-target="#allinone">
+                    All in Ones
+                </button>
+
+                <button class="filter-button" data-target="#tools">
+                    Tools
+                </button>
+            </ul>
+
+            <div class="filters__sections">
+                <div class="projects-content grid filters__active" data-content id="icon">
+
+                    <!-- <article class="projects-card">
+                        <div class="toolgorsel">
+                            <img src="assets/img/project2.png" alt="" class="projects__img">
+                        </div>
+                        <div class="projects-modal">
+                            <div class="project-cover">
+                                <h1 class="projects-title">Remix Icon</h1>
+                                 <a href="#" target="_blank" class="projects-button diamond-button button__small">
+                                    <i class="material-icons">diamond</i>
+                                </a>
+                            </div>
+                        </div>
+                    </article> -->
+
+                    <article class="projects-card">
+                        <div class="toolgorsel" >
+                            <a href="https://fonts.google.com/icons" target="_blank">
+                                <img src="assets/img/googlematerial.jpg"  alt="" class="projects__img">
+                            </a>
+                        </div>
+                        <div class="projects-modal">
+                            <div class="project-cover">
+                                <h1 class="projects-title">Material Icons</h1>
+                            </div>
+                        </div>
+                    </article>
+
+
+                    
+                    <article  class="projects-card">
+                        <!-- style="border-style:solid; border-color: var(--color-orange); border-width: 5px;" -->
+                        <div class="toolgorsel" >
+                            <a href="https://lordicon.com" target="_blank">
+                                <img src="assets/img/lordicon.jpg"  alt="" class="projects__img">
+                            </a>
+                        </div>
+                        <div class="projects-modal">
+                            <div class="project-cover">
+                                <h1 class="projects-title">Lord Icon</h1>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="projects-card">
+                        <div class="toolgorsel">
+                            <a href="https://fontawesome.com/icons" target="_blank">
+                                <img src="assets/img/fontawesome.jpg"  alt="" class="projects__img">
+                            </a>
+                        </div>
+                        <div class="projects-modal">
+                            <div class="project-cover">
+                                <h1 class="projects-title">Font Awesome</h1>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="projects-card">
+                        <div class="toolgorsel">
+                            <a href="https://iconsax.io" target="_blank">
+                                <img src="assets/img/iconsax.jpg"  alt="" class="projects__img">
+                            </a>
+                        </div>
+                        <div class="projects-modal">
+                            <div class="project-cover">
+                                <h1 class="projects-title">Iconsax</h1>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="projects-card">
+                        <div class="toolgorsel">
+                            <a href="https://remixicon.com" target="_blank">
+                                <img src="assets/img/remixicons.jpg"  alt="" class="projects__img">
+                            </a>
+                        </div>
+                        <div class="projects-modal">
+                            <div class="project-cover">
+                                <h1 class="projects-title">Remix Icon</h1>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="projects-card">
+                        <div class="toolgorsel">
+                            <a href="https://feathericons.com" target="_blank">
+                                <img src="assets/img/feathericons.jpg"  alt="" class="projects__img">
+                            </a>
+                        </div>
+                        <div class="projects-modal">
+                            <div class="project-cover">
+                                <h1 class="projects-title">Feather Icons</h1>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="projects-card">
+                        <div class="toolgorsel">
+                            <a href="https://ionic.io/ionicons" target="_blank">
+                                <img src="assets/img/ionicons.jpg"  alt="" class="projects__img">
+                            </a>
+                        </div>
+                        <div class="projects-modal">
+                            <div class="project-cover">
+                                <h1 class="projects-title">Ionicons</h1>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="projects-card">
+                        <div class="toolgorsel">
+                            <a href="https://icons.getbootstrap.com" target="_blank">
+                                <img src="assets/img/bootstrapicons.jpg"  alt="" class="projects__img">
+                            </a>
+                        </div>
+                        <div class="projects-modal">
+                            <div class="project-cover">
+                                <h1 class="projects-title">Bootstrap Icons</h1>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="projects-card">
+                        <div class="toolgorsel">
+                            <a href="https://css.gg" target="_blank">
+                                <img src="assets/img/cssgg.jpg"  alt="" class="projects__img">
+                            </a>
+                        </div>
+                        <div class="projects-modal">
+                            <div class="project-cover">
+                                <h1 class="projects-title">css.gg</h1>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="projects-card">
+                        <div class="toolgorsel">
+                            <a href="https://tabler-icons.io" target="_blank">
+                                <img src="assets/img/tablericons.jpg"  alt="" class="projects__img">
+                            </a>
+                        </div>
+                        <div class="projects-modal">
+                            <div class="project-cover">
+                                <h1 class="projects-title">Tabler Icons</h1>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="projects-card">
+                        <div class="toolgorsel">
+                            <a href="https://react-icons.github.io/react-icons/" target="_blank">
+                                <img src="assets/img/reacticons.jpg"  alt="" class="projects__img">
+                            </a>
+                        </div>
+                        <div class="projects-modal">
+                            <div class="project-cover">
+                                <h1 class="projects-title">React Icons</h1>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="projects-card">
+                        <div class="toolgorsel">
+                            <a href="https://ant.design/components/icon/" target="_blank">
+                                <img src="assets/img/antdesignicons.jpg"  alt="" class="projects__img">
+                            </a>
+                        </div>
+                        <div class="projects-modal">
+                            <div class="project-cover">
+                                <h1 class="projects-title">Ant Design Icons</h1>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="projects-card">
+                        <div class="toolgorsel">
+                            <a href="https://boxicons.com" target="_blank">
+                                <img src="assets/img/boxicons.jpg"  alt="" class="projects__img">
+                            </a>
+                        </div>
+                        <div class="projects-modal">
+                            <div class="project-cover">
+                                <h1 class="projects-title">BoxIcons</h1>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="projects-card">
+                        <div class="toolgorsel">
+                            <a href="https://heroicons.com" target="_blank">
+                                <img src="assets/img/heroicons.jpg"  alt="" class="projects__img">
+                            </a>
+                        </div>
+                        <div class="projects-modal">
+                            <div class="project-cover">
+                                <h1 class="projects-title">Heroicons</h1>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="projects-card">
+                        <div class="toolgorsel">
+                            <a href="https://icons.radix-ui.com" target="_blank">
+                                <img src="assets/img/radixicons.jpg"  alt="" class="projects__img">
+                            </a>
+                        </div>
+                        <div class="projects-modal">
+                            <div class="project-cover">
+                                <h1 class="projects-title">Radix Icons</h1>
+                            </div>
+                        </div>
+                    </article>
+
+                    
+                </div>
+            </div>
+
+            <div class="filters__sections">
+                <div class="projects-content grid" data-content id="backgrounds">
+
+                    <article class="projects-card">
+                        <div class="toolgorsel" >
+                            <a href="https://fffuel.co" target="_blank">
+                                <img src="assets/img/fffuelio.jpg"  alt="" class="projects__img">
+                            </a>
+                        </div>
+                        <div class="projects-modal">
+                            <div class="project-cover">
+                                <h1 class="projects-title">Fffuel</h1>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="projects-card">
+                        <div class="toolgorsel" >
+                            <a href="https://colorhunt.co" target="_blank">
+                                <img src="assets/img/colorhunt.jpg"  alt="" class="projects__img">
+                            </a>
+                        </div>
+                        <div class="projects-modal">
+                            <div class="project-cover">
+                                <h1 class="projects-title">Color Hunt</h1>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="projects-card">
+                        <div class="toolgorsel" >
+                            <a href="https://superdesigner.co" target="_blank">
+                                <img src="assets/img/superdesigner.jpg"  alt="" class="projects__img">
+                            </a>
+                        </div>
+                        <div class="projects-modal">
+                            <div class="project-cover">
+                                <h1 class="projects-title">Super Designer</h1>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="projects-card">
+                        <div class="toolgorsel" >
+                            <a href="https://getwaves.io" target="_blank">
+                                <img src="assets/img/getwaves.jpg"  alt="" class="projects__img">
+                            </a>
+                        </div>
+                        <div class="projects-modal">
+                            <div class="project-cover">
+                                <h1 class="projects-title">Getwaves</h1>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="projects-card">
+                        <div class="toolgorsel" >
+                            <a href="https://www.happyhues.co" target="_blank">
+                                <img src="assets/img/happyhues.jpg"  alt="" class="projects__img">
+                            </a>
+                        </div>
+                        <div class="projects-modal">
+                            <div class="project-cover">
+                                <h1 class="projects-title">Happy Hues</h1>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="projects-card">
+                        <div class="toolgorsel" >
+                            <a href="https://patternpad.com" target="_blank">
+                                <img src="assets/img/patternpad.jpg"  alt="" class="projects__img">
+                            </a>
+                        </div>
+                        <div class="projects-modal">
+                            <div class="project-cover">
+                                <h1 class="projects-title">Patternpad</h1>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="projects-card">
+                        <div class="toolgorsel" >
+                            <a href="https://haikei.app" target="_blank">
+                                <img src="assets/img/haikei.jpg"  alt="" class="projects__img">
+                            </a>
+                        </div>
+                        <div class="projects-modal">
+                            <div class="project-cover">
+                                <h1 class="projects-title">Haikei</h1>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="projects-card">
+                        <div class="toolgorsel" >
+                            <a href="https://animatedbackgrounds.me" target="_blank">
+                                <img src="assets/img/animatedbackgrounds.jpg"  alt="" class="projects__img">
+                            </a>
+                        </div>
+                        <div class="projects-modal">
+                            <div class="project-cover">
+                                <h1 class="projects-title">Animated Backgrounds</h1>
+                            </div>
+                        </div>
+                    </article>
+
+                   
+                   
+                    <p style="float: left;" class="content-tag">Gradients</p>
+                    <br class="mobilebr">
+                    <article class="projects-card">
+                        <div class="toolgorsel" >
+                            <a href="https://csshero.org/mesher/" target="_blank">
+                                <img src="assets/img/csshero.jpg"  alt="" class="projects__img">
+                            </a>
+                        </div>
+                        <div class="projects-modal">
+                            <div class="project-cover">
+                                <h1 class="projects-title">CSS Hero</h1>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="projects-card">
+                        <div class="toolgorsel" >
+                            <a href="https://cssgradient.io" target="_blank">
+                                <img src="assets/img/cssgradient.jpg"  alt="" class="projects__img">
+                            </a>
+                        </div>
+                        <div class="projects-modal">
+                            <div class="project-cover">
+                                <h1 class="projects-title">CSS Gradient</h1>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="projects-card">
+                        <div class="toolgorsel" >
+                            <a href="https://chroma.dev/gradient-palettes" target="_blank">
+                                <img src="assets/img/chromadev.jpg"  alt="" class="projects__img">
+                            </a>
+                        </div>
+                        <div class="projects-modal">
+                            <div class="project-cover">
+                                <h1 class="projects-title">Chroma</h1>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="projects-card">
+                        <div class="toolgorsel" >
+                            <a href="https://bennettfeely.com/gradients/" target="_blank">
+                                <img src="assets/img/gradients.jpg"  alt="" class="projects__img">
+                            </a>
+                        </div>
+                        <div class="projects-modal">
+                            <div class="project-cover">
+                                <h1 class="projects-title">Gradients</h1>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="projects-card">
+                        <div class="toolgorsel" >
+                            <a href="https://ingradients.net" target="_blank">
+                                <img src="assets/img/ingradients.jpg"  alt="" class="projects__img">
+                            </a>
+                        </div>
+                        <div class="projects-modal">
+                            <div class="project-cover">
+                                <h1 class="projects-title">Ingradients</h1>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="projects-card">
+                        <div class="toolgorsel" >
+                            <a href="https://larsenwork.com/easing-gradients/" target="_blank">
+                                <img src="assets/img/larsenwork.jpg"  alt="" class="projects__img">
+                            </a>
+                        </div>
+                        <div class="projects-modal">
+                            <div class="project-cover">
+                                <h1 class="projects-title">Larsenwork</h1>
+                            </div>
+                        </div>
+                    </article>
+
+                  
+                </div>
+            </div>
+
+            <div class="filters__sections">
+                <div class="projects-content grid" data-content id="objects">
+
+
+                    <article class="projects-card">
+                        <div class="toolgorsel" >
+                            <a href="https://www.svgrepo.com" target="_blank">
+                                <img src="assets/img/svgrepo.jpg"  alt="" class="projects__img">
+                            </a>
+                        </div>
+                        <div class="projects-modal">
+                            <div class="project-cover">
+                                <h1 class="projects-title">SVG Repo</h1>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="projects-card">
+                        <div class="toolgorsel" >
+                            <a href="https://www.uiuxrepo.com" target="_blank">
+                                <img src="assets/img/uiuxrepo.jpg"  alt="" class="projects__img">
+                            </a>
+                        </div>
+                        <div class="projects-modal">
+                            <div class="project-cover">
+                                <h1 class="projects-title">UIUX Repo</h1>
+                            </div>
+                        </div>
+                    </article>
+
+
+
+                 <!-- SHADOWS -->
+
+                    <p style="float: left;" class="content-tag">Shadows</p>
+                    <br class="mobilebr">
+
+                    <article class="projects-card">
+                        <div class="toolgorsel" >
+                            <a href="https://getcssscan.com/css-box-shadow-examples" target="_blank">
+                                <img src="assets/img/getcssscan.jpg"  alt="" class="projects__img">
+                            </a>
+                        </div>
+                        <div class="projects-modal">
+                            <div class="project-cover">
+                                <h1 class="projects-title">CSS Scan (Box Shadows)</h1>
+                            </div>
+                        </div>
+                    </article>
+
+                    
+
+                    <article class="projects-card">
+                        <div class="toolgorsel" >
+                            <a href="https://neumorphism.io/" target="_blank">
+                                <img src="assets/img/neumorphism.jpg"  alt="" class="projects__img">
+                            </a>
+                        </div>
+                        <div class="projects-modal">
+                            <div class="project-cover">
+                                <h1 class="projects-title">Neumorphism</h1>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="projects-card">
+                        <div class="toolgorsel" >
+                            <a href="https://html-css-js.com/css/generator/text-shadow/" target="_blank">
+                                <img src="assets/img/htmlcssjs.jpg"  alt="" class="projects__img">
+                            </a>
+                        </div>
+                        <div class="projects-modal">
+                            <div class="project-cover">
+                                <h1 class="projects-title">HTML-CSS-JS (Text Shadow)</h1>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="projects-card">
+                        <div class="toolgorsel" >
+                            <a href="https://html-css-js.com/css/generator/box-shadow/" target="_blank">
+                                <img src="assets/img/htmlcssjs.jpg"  alt="" class="projects__img">
+                            </a>
+                        </div>
+                        <div class="projects-modal">
+                            <div class="project-cover">
+                                <h1 class="projects-title">HTML-CSS-JS (Box Shadow)</h1>
+                            </div>
+                        </div>
+                    </article>
+
+                <!-- SHADOWS FINISH -->
+
+                <!-- AVATAR -->
+
+                <p style="float: left;" class="content-tag">Avatars</p>
+                <br class="mobilebr">
+
+                    <article class="projects-card">
+                        <div class="toolgorsel" >
+                            <a href="https://boringavatars.com" target="_blank">
+                                <img src="assets/img/boringavatars.jpg"  alt="" class="projects__img">
+                            </a>
+                        </div>
+                        <div class="projects-modal">
+                            <div class="project-cover">
+                                <h1 class="projects-title">Boring Avatars</h1>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="projects-card">
+                        <div class="toolgorsel" >
+                            <a href="https://userpics.craftwork.design" target="_blank">
+                                <img src="assets/img/freeuserpicspack.jpg"  alt="" class="projects__img">
+                            </a>
+                        </div>
+                        <div class="projects-modal">
+                            <div class="project-cover">
+                                <h1 class="projects-title">Userpics</h1>
+                            </div>
+                        </div>
+                    </article>
+
+                <!-- AVATAR FINISH -->
+
+                    
+                <!-- CLIP PATHS -->
+
+                <p style="float: left;" class="content-tag">Clip Path Generators</p>
+                <br class="mobilebr">
+
+                <article class="projects-card">
+                    <div class="toolgorsel" >
+                        <a href="https://www.uplabs.com/posts/clip-path-generator" target="_blank">
+                            <img src="assets/img/uplabs.jpg"  alt="" class="projects__img">
+                        </a>
+                    </div>
+                    <div class="projects-modal">
+                        <div class="project-cover">
+                            <h1 class="projects-title">UpLabs (Clip Path Generator)</h1>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="projects-card">
+                    <div class="toolgorsel" >
+                        <a href="https://bennettfeely.com/clippy/" target="_blank">
+                            <img src="assets/img/clippy.jpg"  alt="" class="projects__img">
+                        </a>
+                    </div>
+                    <div class="projects-modal">
+                        <div class="project-cover">
+                            <h1 class="projects-title">Clippy (Clip Path Generator)</h1>
+                        </div>
+                    </div>
+                </article>
+
+                <!-- CLIP PATHS FINISH-->
+
+
+                    <article class="projects-card">
+                        <div class="toolgorsel" >
+                            <a href="https://9elements.github.io/fancy-border-radius/" target="_blank">
+                                <img src="assets/img/9elements.jpg"  alt="" class="projects__img">
+                            </a>
+                        </div>
+                        <div class="projects-modal">
+                            <div class="project-cover">
+                                <h1 class="projects-title">9elements</h1>
+                            </div>
+                        </div>
+                    </article>
+
+                    
+
+                    <br class="mobilebr">
+
+                    <article class="projects-card">
+                        <div class="toolgorsel" >
+                            <a href="https://getcssscan.com/css-buttons-examples" target="_blank">
+                                <img src="assets/img/getcssscan.jpg"  alt="" class="projects__img">
+                            </a>
+                        </div>
+                        <div class="projects-modal">
+                            <div class="project-cover">
+                                <h1 class="projects-title">CSS Scan (Buttons)</h1>
+                            </div>
+                        </div>
+                    </article>
+
+                    
+
+                    <article class="projects-card">
+                        <div class="toolgorsel" >
+                            <a href="https://uicookies.com/css-text-effects/" target="_blank">
+                                <img src="assets/img/uicookies.jpg"  alt="" class="projects__img">
+                            </a>
+                        </div>
+                        <div class="projects-modal">
+                            <div class="project-cover">
+                                <h1 class="projects-title">UICookies (Text Effects)</h1>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="projects-card">
+                        <div class="toolgorsel" >
+                            <a href="https://speckyboy.com/advanced-image-hover-effects/" target="_blank">
+                                <img src="assets/img/speckyboy.jpg"  alt="" class="projects__img">
+                            </a>
+                        </div>
+                        <div class="projects-modal">
+                            <div class="project-cover">
+                                <h1 class="projects-title">Speckyboy (Image Hover Effects)</h1>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="projects-card">
+                        <div class="toolgorsel" >
+                            <a href="https://lostgeometry.xyz" target="_blank">
+                                <img src="assets/img/lostgeometry.jpg"  alt="" class="projects__img">
+                            </a>
+                        </div>
+                        <div class="projects-modal">
+                            <div class="project-cover">
+                                <h1 class="projects-title">Lost Geometry</h1>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="projects-card">
+                        <div class="toolgorsel" >
+                            <a href="https://www.microcopy.me" target="_blank">
+                                <img src="assets/img/microcopy.jpg"  alt="" class="projects__img">
+                            </a>
+                        </div>
+                        <div class="projects-modal">
+                            <div class="project-cover">
+                                <h1 class="projects-title">Microcopy</h1>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="projects-card">
+                        <div class="toolgorsel" >
+                            <a href="https://whirl.netlify.app" target="_blank">
+                                <img src="assets/img/whirl.jpg"  alt="" class="projects__img">
+                            </a>
+                        </div>
+                        <div class="projects-modal">
+                            <div class="project-cover">
+                                <h1 class="projects-title">Whirl</h1>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="projects-card">
+                        <div class="toolgorsel" >
+                            <a href="https://chartscss.org" target="_blank">
+                                <img src="assets/img/chartscss.jpg"  alt="" class="projects__img">
+                            </a>
+                        </div>
+                        <div class="projects-modal">
+                            <div class="project-cover">
+                                <h1 class="projects-title">Charts.css</h1>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="projects-card">
+                        <div class="toolgorsel" >
+                            <a href="https://www.seekpng.com" target="_blank">
+                                <img src="assets/img/seekpng.jpg"  alt="" class="projects__img">
+                            </a>
+                        </div>
+                        <div class="projects-modal">
+                            <div class="project-cover">
+                                <h1 class="projects-title">Seek PNG</h1>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="projects-card">
+                        <div class="toolgorsel" >
+                            <a href="https://bennettfeely.com/csspiechart/" target="_blank">
+                                <img src="assets/img/csspiechart.jpg"  alt="" class="projects__img">
+                            </a>
+                        </div>
+                        <div class="projects-modal">
+                            <div class="project-cover">
+                                <h1 class="projects-title">CSS Pie Chart</h1>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="projects-card">
+                        <div class="toolgorsel" >
+                            <a href="https://divtable.com/table-styler/" target="_blank">
+                                <img src="assets/img/divtable.jpg"  alt="" class="projects__img">
+                            </a>
+                        </div>
+                        <div class="projects-modal">
+                            <div class="project-cover">
+                                <h1 class="projects-title">Divtable (Table Styler)</h1>
+                            </div>
+                        </div>
+                    </article>
+                  
+                </div>
+            </div>
+
+            <div class="filters__sections">
+                <div class="projects-content grid" data-content id="allinone">
+
+                    <article class="projects-card">
+                        <div class="toolgorsel" >
+                            <a href="https://10015.io" target="_blank">
+                                <img src="assets/img/10015.jpg"  alt="" class="projects__img">
+                            </a>
+                        </div>
+                        <div class="projects-modal">
+                            <div class="project-cover">
+                                <h1 class="projects-title">10015</h1>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="projects-card">
+                        <div class="toolgorsel" >
+                            <a href="https://keyframes.app/animate" target="_blank">
+                                <img src="assets/img/keyframes.jpg"  alt="" class="projects__img">
+                            </a>
+                        </div>
+                        <div class="projects-modal">
+                            <div class="project-cover">
+                                <h1 class="projects-title">Keyframes</h1>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="projects-card">
+                        <div class="toolgorsel" >
+                            <a href="https://html-css-js.com" target="_blank">
+                                <img src="assets/img/htmlcssjs.jpg"  alt="" class="projects__img">
+                            </a>
+                        </div>
+                        <div class="projects-modal">
+                            <div class="project-cover">
+                                <h1 class="projects-title">HTML-CSS-JS</h1>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="projects-card">
+                        <div class="toolgorsel" >
+                            <a href="https://divtable.com/" target="_blank">
+                                <img src="assets/img/divtable.jpg"  alt="" class="projects__img">
+                            </a>
+                        </div>
+                        <div class="projects-modal">
+                            <div class="project-cover">
+                                <h1 class="projects-title">Divtable</h1>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="projects-card">
+                        <div class="toolgorsel" >
+                            <a href="https://uicookies.com/blog/" target="_blank">
+                                <img src="assets/img/uicookies.jpg"  alt="" class="projects__img">
+                            </a>
+                        </div>
+                        <div class="projects-modal">
+                            <div class="project-cover">
+                                <h1 class="projects-title">UICookies</h1>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="projects-card">
+                        <div class="toolgorsel" >
+                            <a href="https://freefrontend.com" target="_blank">
+                                <img src="assets/img/freefrontend.jpg"  alt="" class="projects__img">
+                            </a>
+                        </div>
+                        <div class="projects-modal">
+                            <div class="project-cover">
+                                <h1 class="projects-title">Free Frontend</h1>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="projects-card">
+                        <div class="toolgorsel" >
+                            <a href="https://speckyboy.com" target="_blank">
+                                <img src="assets/img/speckyboy.jpg"  alt="" class="projects__img">
+                            </a>
+                        </div>
+                        <div class="projects-modal">
+                            <div class="project-cover">
+                                <h1 class="projects-title">Speckyboy</h1>
+                            </div>
+                        </div>
+                    </article>
+
+                    
+             
+
+                    
+
+
+                  
+                </div>
+            </div>
+
+
+        </section>
+    </main>
+    
+    
+    <footer class="footer container">
+        <span class="footer__copy">
+            &#169; This site was developed by Levent Keleş. Contributors in the content section; Sergio Cardenas, Frontend Joe, 
+        </span>
+    </footer>
+
+
+        <!--=============== SCROLLREVEAL ===============-->
+        <script src="scrollreveal.min.js"></script>
+
+        <script src="main.js"></script>
+    
+</body>
+</html>
